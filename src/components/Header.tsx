@@ -5,7 +5,7 @@ export function Header() {
       <Flex 
       as="header"
       width="100%" 
-      maxWidth={1480}
+      maxWidth={1300}
       height="20"
       // Margin horizontal auto
       marginX="auto"
@@ -17,10 +17,10 @@ export function Header() {
           fontSize="3xl"
           fontWeight="bold"
           letterSpacing="tight"
-          width="64"
+          width="100"
         >
-          sos
-          <Text as="span" marginLeft="1" color="purple.500">.</Text>
+          dashgo
+          <Text as="span" marginLeft="2" color="purple.500">.</Text>
          </Text> 
 
           <Flex 
@@ -29,10 +29,10 @@ export function Header() {
             //paddingHorizontal
             py="4"
             //padding vertical
-            px="8"
+            px="5"
             //margin left
-            ml="6"
-            maxWidth={400}
+           right='-145px'
+            maxWidth={250}
             alignSelf="center"
             color="gray.200"
             position="relative"
@@ -43,7 +43,7 @@ export function Header() {
               color="gray.50"
               variant="unstyled"
               px="4"
-              mr="4"
+              mr="15"
               placeholder="Buscar na plataforma"
               _placeholder={{ color: 'gray.400'}}
             />
@@ -55,8 +55,8 @@ export function Header() {
            ml="auto"
          >
             <HStack
-              spacing="8"
-              mx="8"
+              spacing="3"
+              mx="-3"
               pr="8"
               py="1"
               color="gray.300"
@@ -66,16 +66,16 @@ export function Header() {
               <Icon as={RiNotificationOffLine} fontSize="20" />
               <Icon as={RiUserAddLine} fontSize="20" />
             </HStack>
-
+            |
             <Flex align="center">
-              <Box mr="4" textAlign="right">
-                <Text>Matheus Macedo</Text>
-                <Text color="gray.300" fontSize="small">
+              <Box ml="8" mr="2" textAlign="right">
+                <Text h="3">Matheus Macedo</Text>
+                <Text  color="gray.300" fontSize="small">
                   matheusmacedo643@gmail.com
                 </Text>
               </Box>
 
-              <Avatar size="md" name="Matheus MAaedo" src="https://github.com//macedonia20.png" />
+              <Avatar marginLeft="20px" size="md" name="Matheus Macedo" src="https://github.com//macedonia20.png" />
             </Flex>
          </Flex>
       </Flex>
