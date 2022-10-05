@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "aws s3 sync build/ s3://paineladministrativo.com --acl public-read"
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",

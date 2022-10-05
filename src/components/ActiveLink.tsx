@@ -4,7 +4,7 @@ import { cloneElement, ReactElement } from "react";
 
 interface ActiveLinkProps extends LinkProps {
   children: ReactElement;
-  shouldMatchExactHref: boolean;
+  shouldMatchExactHref?: boolean;
 }
 
 export function ActiveLink({ children, shouldMatchExactHref = false, ...rest }: ActiveLinkProps) {
