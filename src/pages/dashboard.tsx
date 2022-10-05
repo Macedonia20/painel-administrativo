@@ -1,4 +1,6 @@
 import { Flex, SimpleGrid, Box, Text, theme } from "@chakra-ui/react";
+import { ApexOptions } from 'apexcharts';
+
 import dynamic from "next/dynamic";
 import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
@@ -36,12 +38,12 @@ export default function Dashboard() {
              color: theme.colors.gray[600]
          },
          categories: [
-             '2022-05-14T00:00:000',
-             '2022-05-15T00:00:000',
-             '2022-05-16T00:00:000',
-             '2022-05-17T00:00:000',
-             '2022-05-18T00:00:000',
-             '2022-05-19T00:00:000',
+            '2022-05-14T00:00:00.000Z',
+            '2022-05-15T00:00:00.000Z',
+            '2022-05-16T00:00:00.000Z',
+            '2022-05-17T00:00:00.000Z',
+            '2022-05-18T00:00:00.000Z',
+            '2022-05-19T00:00:00.000Z',
         ],
         },
         fill: {
@@ -54,7 +56,7 @@ export default function Dashboard() {
             },
         }
 
-    }
+    } as const;
     const series = [
         {name: 'series', data: [35, 66, 78, 888, 900, 500]}
     ]
