@@ -5,10 +5,10 @@ export default function SignIn() {
   return (
     // O Flex é a mesma coisa que uma div 
     <Flex
-      width="100vw"
-      height="100vh"
-      alignItems="center"
-      justifyContent="center"
+      w="100vw"
+      h="100vh"
+      align="center"
+      justify="center"
     >
       <Flex
         as="form"
@@ -23,7 +23,7 @@ export default function SignIn() {
 
         <Stack spacing="4">
           <Input name="email" type="email" label="E-mail" />
-          <Input name="passoword" type="passoword" label="Senha" />
+          <Input name="passoword" type="password" label="Senha" />
         </Stack>
 
         <Button type="submit" marginTop="6" colorScheme="purple" size="lg">Entrar</Button>
