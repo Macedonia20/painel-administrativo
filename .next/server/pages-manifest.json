@@ -1,6 +1,6 @@
 {
-  "/_document": "pages/_document.js",
   "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
   "/dashboard": "pages/dashboard.html",
   "/": "pages/index.html",
   "/users/create": "pages/users/create.html",
