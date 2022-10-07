@@ -22,7 +22,7 @@ export default function SignIn() {
       >
 
         <Stack spacing="4">
-          <Input name="email" type="email" label="E-mail" />
+          <Input name="email" type="email" label="E-mailllll" />
           <Input name="passoword" type="password" label="Senha" />
         </Stack>
 
