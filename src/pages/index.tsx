@@ -22,11 +22,11 @@ export default function SignIn() {
       >
 
         <Stack spacing="4">
-          <Input name="email" type="email" label="E-mailllll" />
+          <Input name="email" type="email" label="E-mail" />
           <Input name="passoword" type="password" label="Senha" />
         </Stack>
 
-        <Button type="submit" marginTop="6" colorScheme="purple" size="lg">Entrar</Button>
+        <Button type="submit" marginTop="6" colorScheme="purple" size="lg">Entrarrrrrr</Button>
       </Flex>
 
     </Flex>  )
