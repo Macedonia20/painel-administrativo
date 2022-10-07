@@ -3,8 +3,8 @@
   "/_document": "pages/_document.js",
   "/dashboard": "pages/dashboard.html",
   "/": "pages/index.html",
+  "/users/create": "pages/users/create.html",
   "/users": "pages/users.html",
   "/_error": "pages/_error.js",
-  "/users/create": "pages/users/create.html",
   "/404": "pages/404.html"
 }
