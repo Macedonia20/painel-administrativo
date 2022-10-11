@@ -8,10 +8,9 @@ interface NavLinkProps  extends ChackraLinkProps{
     icon: ElementType;
     children: string;
     href: string;
-
 }
 
-export function NavLink({ icon, children, href, ...rest  }: NavLinkProps) {
+export function NavLink({ icon, children, href,  ...rest  }: NavLinkProps) {
     return (
         <ActiveLink href={href} passHref>
             <ChackraLink display="flex" alignItems="center" {...rest}>

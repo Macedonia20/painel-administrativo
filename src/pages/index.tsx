@@ -1,5 +1,11 @@
-import { Flex, Button, Stack,  } from '@chakra-ui/react'
+import { RiDashboardLine, RiAddLine } from "react-icons/ri";
+
+
+import { Flex, Button, Stack, Icon,  } from '@chakra-ui/react'
 import { Input } from '../components/Form/Input'
+import { NavLink } from "../components/Sidebar/NavLink";
+import Link from "next/link";
+
 
 export default function SignIn() {
   return (
@@ -23,11 +29,21 @@ export default function SignIn() {
 
         <Stack spacing="4">
           <Input name="email" type="email" label="E-mail" />
-          <Input name="passoword" type="password" label="Senha" />
+          <Input name="passoword" type="password" label="Senha" placeholder="Digite qualquer coisa..." />
         </Stack>
 
-        <Button type="submit" marginTop="6" colorScheme="purple" size="lg">Entrarrrrrr</Button>
+        <Link href="/dashboard" passHref>
+          <Button
+            as="a" 
+            type="submit" 
+            marginTop="6" 
+            colorScheme="purple" 
+            size="lg" mb="4"
+          >
+            Entrar
+          </Button>
+        </Link>
       </Flex>
-
-    </Flex>  )
+    </Flex>  
+  )
 }

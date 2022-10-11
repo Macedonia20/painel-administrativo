@@ -15,7 +15,6 @@
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@serverless/cli": "^1.6.0",
     "apexcharts": "^3.35.3",
     "framer-motion": "^6.3.1",
     "icons": "^1.0.0",
@@ -24,7 +23,7 @@
     "react-apexcharts": "^1.4.0",
     "react-dom": "18.0.0",
     "react-icons": "^4.3.1",
-    "serverless": "^3.22.0"
+    "serverless": "2.72.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.26",
